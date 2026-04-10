@@ -1,0 +1,38 @@
+body {
+    background-color: #d0dbf8; 
+}
+#chartdiv {
+    width: 50%;
+    height: 200px;
+    float: left;
+}
+
+#datadiv {
+    width: 50%;
+    height: 200px;
+    float: right;
+}
+
+#valuediv{
+    width: 50%;
+    height: 200px;
+    float: right;
+
+  }
+#demodiv{
+    width: 50%;
+    height: 200px;
+    float: left;
+}
+
+
+h1{
+    color:rgb(204, 86, 50);
+
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25vh;
+}
