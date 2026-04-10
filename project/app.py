@@ -12,7 +12,7 @@ def create_connection(db_file):
         print(e)
     return conn
 
-df = pd.read_csv("project\data\Amazon.csv")
+df = pd.read_csv("project/data/Amazon.csv")
 connection = create_connection("demo.db")
 df.to_sql('Amazon',connection,if_exists='replace')
 connection.close();
